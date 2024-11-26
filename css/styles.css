@@ -1,0 +1,306 @@
+
+/* Hacer que el fondo de la barra de navegación sea transparente */
+
+
+/* .nav {
+  background-color: rgb(20, 80, 170);
+
+
+}
+Establecer el color del texto de los enlaces en blanco */
+.nav-link {
+  color: white;
+}
+
+/* Cambiar el color de los enlaces cuando están activos o al pasar el mouse */
+.nav-link.active, .nav-link:hover {
+  color: rgb(255, 255, 255); /* Color azul al pasar el mouse o cuando están activos */
+}
+
+/* Cambiar el color de los enlaces deshabilitados */
+.nav-link.disabled {
+  color: rgba(255, 255, 255, 0.5); /* Color más tenue para los enlaces deshabilitados */
+}
+
+section{
+  color: rgb(19, 1, 43);
+
+}
+#margen1{
+  background-color: transparent !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#ppp {
+  width: 100%; /* Asegúrate de que el contenedor ocupe todo el ancho */
+  height: 100vh; /* Si quieres que ocupe toda la altura */
+    background-image: url(cafeppc.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.container {
+    width: 100%; /* Asegúrate de que el contenedor ocupe todo el ancho */
+    height: 100vh; /* Si quieres que ocupe toda la altura */
+  }
+
+
+  #section2 { 
+    background: url(lentes.jpg);
+       background-size: cover;
+     background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-position: center; 
+       height: 40vh; /* 100% of viewport height */
+       margin: 0 auto; 
+       position: relative; 
+       display: flex; /* Usamos flexbox para centrar el contenido */
+       justify-content: center; /* Centra el contenido horizontalmente */
+       align-items: center; /* Centra el contenido verticalmente */
+       
+   }
+
+   #section1 { 
+    background: url(codigo.jpg); 
+       background-size: cover;
+     background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-position: center; 
+       height: 40vh; /* 100% of viewport height */
+       margin: 0 auto; 
+       position: relative; 
+       display: flex; /* Usamos flexbox para centrar el contenido */
+       justify-content: center; /* Centra el contenido horizontalmente */
+       align-items: center; /* Centra el contenido verticalmente */
+       margin-bottom: 50px; /* Ajusta el valor según el espacio que desees */
+       
+   }
+
+   #portadaParalax { 
+    background: url(cafeppc.jpg); 
+       background-size: cover;
+     background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-position: center; 
+       height: 100vh; /* 100% of viewport height */
+       margin: 0 auto; 
+       position: relative; 
+       display: flex; /* Usamos flexbox para centrar el contenido */
+       justify-content: center; /* Centra el contenido horizontalmente */
+       align-items: center; /* Centra el contenido verticalmente */
+       
+   }
+
+/* Estilo para la sección de la portada */
+#portada {
+  background-image: url(cafeppc.jpg); /* Ruta a tu imagen de fondo */
+  background-size: cover; /* Hace que la imagen cubra toda la sección */
+  background-position: center center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  height: 100vh; /* La altura de la sección es igual al alto de la ventana del navegador */
+  display: flex; /* Usamos flexbox para centrar el contenido */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+  padding: 0 10%; /* Separación del borde de un 10% (esto crea espacio alrededor del contenido) */
+}
+
+#separador{
+  background-image: url(codigo.jpg); /* Ruta a tu imagen de fondo */
+  background-size: cover; /* Hace que la imagen cubra toda la sección */
+  background-position: center center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  height: 40vh; /* La altura de la sección es igual al alto de la ventana del navegador */
+  display: flex; /* Usamos flexbox para centrar el contenido */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+  padding: 0 10%; /* Separación del borde de un 10% (esto crea espacio alrededor del contenido) */
+}
+
+#separador2{
+  background-image: url(lentes.jpg); /* Ruta a tu imagen de fondo */
+  background-size: cover; /* Hace que la imagen cubra toda la sección */
+  background-position: center center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  height: 40vh; /* La altura de la sección es igual al alto de la ventana del navegador */
+  display: flex; /* Usamos flexbox para centrar el contenido */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+  padding: 0 10%; /* Separación del borde de un 10% (esto crea espacio alrededor del contenido) */
+}
+
+/* Estilo para el contenedor del título */
+.contenido , .contenido2 {
+ 
+  text-align: center; /* Centra el texto */
+  color: white; /* Color del texto en blanco */
+}
+
+/* Estilo para el título */
+#portada h1 {
+  font-size: 3rem; /* Tamaño grande para el título */
+  font-weight: bold; /* Asegura que el título sea negrita */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para hacer el texto más visible sobre el fondo */
+  margin: 0; /* Elimina márgenes por defecto */
+}
+
+
+#margen{
+    width: 85%; /* Ocupa el 90% del ancho disponible */
+    margin: 5% auto; /* Margen superior e inferior 0, margen izquierdo y derecho auto para centrar */
+    background: rgb(255, 255, 255);
+    display: flex; 
+    justify-content: center; 
+   
+    }
+   
+    .card {
+     margin-bottom: 10%;
+      margin-top: 5%;
+      margin-left: 10%; /* Adjust the margin as needed */
+    }
+
+    .row.mi-caja {
+     
+      border-left: 5% !important;
+    }
+
+h1 i, h1 strong {
+  font-weight: bold;
+  font-family: 'Quicksans' , 'Open-sans', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bi-chevron-left {
+  font-size: 24px;
+  color: #0f5f08;
+  font-weight: bold;
+}
+
+
+   
+  /* Elimina el borde de la tarjeta de Kotlin */
+.skylls {
+    border: none !important;
+}
+/* Objetivo: Reducir el alto de las tarjetas y su contenido */
+
+
+#margen22 {
+  border: 10% !important;
+  width: 90%;
+
+}
+
+      
+    h1 {
+        font-family: 'Quicksans', 'Open-sans',sans-serif;
+        /* Puedes ajustar el tamaño, el peso y otros estilos según sea necesario */
+        font-size: 2em;
+    
+        font-weight: bold;
+      }
+
+
+
+
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768%) {
+  .misKylls {
+  
+    width: 70% !important;/* Reduce el ancho de la tarjeta al 70% */
+    margin: 10%; /* Aplica un margen de 5% en todos los lados */
+    padding: 10%; /* Aplica un padding de 5% en todos los lados */
+  }
+  /* Adjust skill and language lists */
+  .row-cols-1, .row-cols-md-3 {
+      flex-direction: column; /* Stack items vertically */
+  }
+
+  .col {
+      width: 100%; /* Make each skill/language take full width */
+  }
+}  
+
+.bi bi-code{
+  color: #4a2bd3;
+}
+
+
+
+
+/* FOOTER */
+.footer{
+  background: #152F4F !important;
+  color:white;
+}
+
+.miFooter {
+  max-width: 960px; 
+  margin: 0 auto;
+  
+}
+
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  } 
+  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+
+  .location{
+    i{font-size: 18px;}
+  }
+
+  .copyright p{
+    border-top:1px solid rgba(255,255,255,.1);
+  } 
+
+
+
+
+
+
+/* Estilos para el botón Volver Arriba */
+.ir-arriba {
+  position: fixed;
+  bottom: 20px;        /* Más cerca de la parte inferior */
+  right: 20px;         /* Flotando a la derecha */
+  display: none;       /* Inicialmente oculto */
+  z-index: 9999;
+  cursor: pointer;
+  background-color: #000;  /* Fondo negro */
+  border-radius: 50%;      /* Botón circular */
+  width: 40px;             /* Ancho más pequeño */
+  height: 40px;            /* Alto más pequeño */
+  text-align: center;      /* Centrar el contenido */
+  line-height: 40px;       /* Centrar el icono verticalmente */
+}
+
+.fa-stack {
+  font-size: 18px;         /* Icono más pequeño */
+}
+
+.fa-circle {
+  color: #000;            /* Fondo del círculo negro */
+}
+
+.fa-arrow-up {
+  color: #fff;            /* Icono de flecha blanca */
+}
